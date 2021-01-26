@@ -26,7 +26,7 @@ public abstract class PlayerActionStateBase : StateBase{
     private void ComputeGravity(){
         if(!EnableGravity) return;
         var velocity = m_rb.velocity;
-        velocity.y -= m_playerStatus.GravityScale;
+        velocity.y -= m_playerStatus.GravityScale * Time.deltaTime;
         m_rb.velocity = velocity;
     }
     

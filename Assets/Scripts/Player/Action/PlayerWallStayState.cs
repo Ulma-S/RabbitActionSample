@@ -2,7 +2,8 @@
 
 public class PlayerWallStayState : PlayerActionStateBase{
     private float m_elapsedTime = 0.0f;
-    
+    public float CurrentElapsedTime => m_elapsedTime;
+
     protected override void Initialize(){
         m_stateMachine.AddState(EPlayerActionState.WallStay, this);
     }
@@ -46,5 +47,6 @@ public class PlayerWallStayState : PlayerActionStateBase{
 
     public override void OnExit(){
         EnableGravity = true;
+        m_elapsedTime = 0.0f;
     }
 }

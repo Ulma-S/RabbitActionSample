@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 1865460426}
   - component: {fileID: 6860566059529564247}
   - component: {fileID: 4966384325637949395}
+  - component: {fileID: 4472617264006178499}
   m_Layer: 2
   m_Name: Player
   m_TagString: Player
@@ -266,3 +267,16 @@ MonoBehaviour:
   m_stateMachine: {fileID: 7827176623187705998}
   m_playerStatus: {fileID: 11400000, guid: 327983a37a0df0e48bc3ce7d5e8176dc, type: 2}
   m_collisionDetector: {fileID: 1865460426}
+--- !u!114 &4472617264006178499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6134674797408617914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d0cae1a34d7be49b47cd9fc1d36bfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_stateMachine: {fileID: 7827176623187705998}
