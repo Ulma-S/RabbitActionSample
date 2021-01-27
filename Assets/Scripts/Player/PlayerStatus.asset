@@ -17,7 +17,7 @@ MonoBehaviour:
   MaxJumpTime: 0.4
   WallJumpSpeed: 15
   WallJumpDir: {x: 1, y: 3}
-  GravityScale: 100
+  GravityScale: 60
   AirResistanceScale: 0.8
   MaxWallStayTime: 2
   RushAttackForce: 40

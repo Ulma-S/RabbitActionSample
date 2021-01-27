@@ -11,8 +11,8 @@ public class PlayerRushAttackState : PlayerActionStateBase{
     public override void OnEnter(){
         m_elapsedTime = 0.0f;
         
+        //突進方向を設定
         var velocity = m_rb.velocity;
-
         var horizontalInput = KeyboardInputProvider.Instance.HorizontalInput;
         if (Mathf.Abs(horizontalInput) > 0.0f) {
             velocity.x = KeyboardInputProvider.Instance.HorizontalInput;

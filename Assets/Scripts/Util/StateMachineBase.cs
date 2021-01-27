@@ -28,7 +28,7 @@ namespace Ulma.Util {
         
 
         /// <summary>
-        /// 
+        /// State遷移
         /// </summary>
         /// <param name="type"></param>
         public void ChangeState(TStateType type) {
