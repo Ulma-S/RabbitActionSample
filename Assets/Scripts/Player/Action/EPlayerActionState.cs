@@ -4,5 +4,5 @@
     Jump,
     WallStay,
     WallJump,
-    RushAttack,s
+    RushAttack,
 }

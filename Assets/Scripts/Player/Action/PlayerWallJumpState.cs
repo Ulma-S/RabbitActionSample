@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerWallJumpState : PlayerActionStateBase{
     [SerializeField] private PlayerCollisionDetector m_collisionDetector;
